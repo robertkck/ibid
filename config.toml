@@ -55,7 +55,7 @@ enableGitInfo = true
 
   # Your details.
   name = "Robert Kalcik"
-  role = "Junior Scientist in Innovation Systems and Policy"
+  role = "Innovation Systems and Policy"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
@@ -64,7 +64,7 @@ enableGitInfo = true
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "robert.kalcik@gmail.com"
-  address = "Giefienggasse 4, 1210 Wien"
+  address = "AIT Austrian Institute of Technology, Giefienggasse 4, 1210 Wien"
   skype = "robert.kalcik"
   telegram = "rkalcik"
 

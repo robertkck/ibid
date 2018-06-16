@@ -28,6 +28,6 @@ weight = 5
  
 +++
 
-# Biography
+# About me
 
-Robert Kalcik is a Junior Scientist at the Austrian Institute of Technology, Center for Innovation Systems. 
+I am a data scientist working at the Austrian Institute of Technology. Find out more about my [projects](#projects) on Austrian media, [posts](../post/_master/LICENSE_index.md) on data viz, an [publications](http://www.viz.netlify.com/#publications) in the area of innovation, policy and low-carbon transition. 
