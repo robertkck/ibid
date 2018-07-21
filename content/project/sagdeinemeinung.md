@@ -1,6 +1,6 @@
 +++
 # Date this page was created.
-date = 2016-04-27T00:00:00
+date = 2018-07-13T00:00:00
 
 # Project title.
 title = "Sag Deine Meinung"
@@ -9,7 +9,7 @@ title = "Sag Deine Meinung"
 summary = "Öffentlicher Diskurs und Mitsprache"
 
 # Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "bubbles.jpg"
+# image_preview = "bubbles.jpg"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["media", "diskurs"]`
@@ -28,7 +28,7 @@ caption = "What What :facepalm-man:"
 
 +++
 
-Meinung wird von uns allen gemacht. Das was für uns relevant ist trägt zu unserer Meinungsmache bei.
+Meinung wird von uns allen gemacht. Was für uns relevant ist trägt zu unserer Meinungsmache bei.
 The network of our joint believes drives what becomes reality. And in the worst case becomes our fate.
 There is opinoin being generated as you read. Shouts, not waiting for receivers create a fog, a mist, a buzz.
 

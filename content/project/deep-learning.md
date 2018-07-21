@@ -3,10 +3,10 @@
 date = 2016-04-27T00:00:00
 
 # Project title.
-title = "Sag Deine Meinung"
+title = "World Control"
 
 # Project summary to display on homepage.
-summary = "Öffentlicher Diskurs und Mitsprache"
+summary = "Spiel um die Weltherrschaft"
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "bubbles.jpg"
