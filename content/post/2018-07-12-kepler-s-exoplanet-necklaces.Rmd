@@ -58,16 +58,57 @@ df %>%
           x = ~log(per), y = ~koi_s, size = ~rp, color = ~t)
 ```
 
+or radial
+
+```{r}
+p <- df %>% # filter(row_number() < 100) %>% 
+  ggplot(aes(x = koi_s, y = log(per), size = rp, colour = t)) +
+  geom_jitter() +
+#  labs() +
+  scale_x_discrete(breaks = NULL, labels = NULL) +
+  hrbrthemes::theme_ipsum() + 
+  coord_polar()
+
+p
+```
+
+
+```{r}
+p <- df %>% filter(row_number() < 100) %>% 
+  mutate(loc = 0.5) %>% 
+  ggplot(aes(x = loc, y = log(per), size = rp, colour = t)) +
+  geom_point() +
+  # scale_x_discrete(breaks = NULL, labels = NULL) +
+  hrbrthemes::theme_ipsum() + 
+  coord_polar()
+
+p
+```
+
+```{r}
+p <- df %>%
+  ggplot(aes(x = log(per), size = rp, colour = t)) +
+  geom_histogram() +
+  hrbrthemes::theme_ipsum()
+p
+```
 
 
 Source: 
+
 * http://www.manyworlds.space/index.php/2018/07/09/the-architecture-of-solar-systems/
 * https://arxiv.org/pdf/1706.06204.pdf
 * https://arxiv.org/abs/1706.06204
 * http://iopscience.iop.org/article/10.3847/1538-3881/aa9ff6/meta#ajaa9ff6t1
+* http://www.datasketch.es/may/code/nadieh/
+* https://www.littlemissdata.com/blog/nasadatanauts
+* Stylised map of exoplanets and code to create proper radial chart with interesting hover infromation: https://www.reddit.com/r/dataisbeautiful/comments/9xlmy0/stylised_map_of_all_known_nearby_exoplanets_oc/
 
 
 Embed the SETI Tweet
+
+While on the topic, check out Willem Tulp's gorgeous ESA [Stllar Family Portrait](http://sci.esa.int/gaia-stellar-family-portrait/).
+
 
 ![](https://media.giphy.com/media/w5NqcJHMFziBa/giphy.gif)
 
